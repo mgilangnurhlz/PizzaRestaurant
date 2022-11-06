@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">uts</string>
+    <string-array name="planets_array">
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+        <item>belitung</item>
+    </string-array>
+
+    <string name="sendiri">Ambil sendiri</string>
+    <string name="fastdeliv">Fast Delivery</string>
+</resources>

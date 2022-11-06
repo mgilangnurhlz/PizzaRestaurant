@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/person"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:paddingTop="5dp"
+        android:text="Value"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toTopOf="@+id/profile" />
+
+    <ImageView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        app:srcCompat="@drawable/main"
+        />
+
+    <TextView
+        android:id="@+id/store1"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:text="Store"
+        android:textColor="#733F0E"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main" />
+
+    <TextView
+        android:id="@+id/store2"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:text="Location"
+        android:textColor="#733F0E"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/store1" />
+
+    <TextView
+        android:id="@+id/cihampelas"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:gravity="end"
+        android:layout_marginEnd="30dp"
+        android:text="Cihampelas"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/store1"
+        app:layout_constraintTop_toTopOf="@+id/store1" />
+
+    <TextView
+        android:id="@+id/cihampelas2"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:text="Find on Map"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/store2"
+        app:layout_constraintTop_toTopOf="@+id/store2"
+        app:layout_constraintEnd_toStartOf="@+id/loc"
+        android:gravity="end"/>
+
+    <ImageView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+
+        app:layout_constraintStart_toEndOf="@+id/cihampelas2"
+        app:layout_constraintTop_toTopOf="@+id/cihampelas2"
+        app:srcCompat="@drawable/location" />
+
+    <Button
+        android:id="@+id/menus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#D52F2F"
+        android:onClick="pindah2"
+        android:text="See Menus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/store2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
