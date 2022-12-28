@@ -2,6 +2,7 @@
   <h1> Muhammad Gilang Nur Haliz</h1> 
   <h3>"Restaurant With API"</h3>
   <p>Untuk Memenuhi Ujian Akhir Semester Mata Kuliah Pengembangan Aplikasi Mobile</p> 
+  <p>(1207050074) Teknik Informatika D </p> 
   
   [Teknik Informatika](http://if.uinsgd.ac.id/) || [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
   
