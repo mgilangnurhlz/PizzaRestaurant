@@ -8,9 +8,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+
 public class MainActivity2 extends AppCompatActivity {
     TextView tv;
     String st;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +22,7 @@ public class MainActivity2 extends AppCompatActivity {
         tv = findViewById(R.id.textview_first);
         st=getIntent().getExtras().getString("Value");
         tv.setText(st);
+
 
 
     }
