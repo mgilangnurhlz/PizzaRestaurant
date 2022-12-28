@@ -1,19 +1,73 @@
-# PizzaRestaurant
-Muhammad Gilang Nur Haliz
-1207050074
-Teknik Informatika - D
+<div align="center"> 
+  <h1> Muhammad Gilang Nur Haliz</h1> 
+  <h3>"Restaurant With API"</h3>
+  <p>Untuk Memenuhi Ujian Akhir Semester Mata Kuliah Pengembangan Aplikasi Mobile</p> 
+  
+  [Teknik Informatika](http://if.uinsgd.ac.id/) || [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
+  
+</div>
 
-## Link Hasil Tampilan dan Penjelasan
-https://docs.google.com/document/d/1MUH1A2WZriJ83w4-XwT-h3gfOeATDjBF/edit?usp=sharing&ouid=100058761340290785388&rtpof=true&sd=true
 
-## Tampilan
-![WhatsApp Image 2022-11-06 at 21 21 39](https://user-images.githubusercontent.com/100754364/200180338-21a9d961-68d2-486a-8c7c-f938c53102ae.jpg)
-![2hariini](https://user-images.githubusercontent.com/100754364/200180345-30d41c54-38f2-46ce-b352-d379c8b081f9.jpg)
-![3hariini](https://user-images.githubusercontent.com/100754364/200180352-f58c41c8-78d6-4df1-94c8-75a7eb9c44af.jpg)
-![4hariini](https://user-images.githubusercontent.com/100754364/200180359-5ec2b9ff-caf2-4cbe-8c20-d5b4cb88dc09.jpg)
-![5hariini](https://user-images.githubusercontent.com/100754364/200180375-3acd6798-44af-4d84-ba7a-32b1c87dbe04.jpg)
-![6harini](https://user-images.githubusercontent.com/100754364/200180384-f2e1bfc0-75a0-4989-a996-3704392dde91.jpg)
-![7hariini](https://user-images.githubusercontent.com/100754364/200180387-e98b90a3-fbdb-4b5b-bff0-f8c7e10d241d.jpg)
-![8hariini](https://user-images.githubusercontent.com/100754364/200180393-eb34b462-5400-43d8-9e0e-090dcaabe224.jpg)
-![9hariini](https://user-images.githubusercontent.com/100754364/200180405-e80ca8dd-f790-4556-a9e5-ec838e6601ca.jpg)
-![10hariini](https://user-images.githubusercontent.com/100754364/200180446-4fd406c0-102f-4859-831d-4d06be661e58.jpg)
+<h2 align="left">Languages and Tools:</h2>
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> </p>
+
+## API Method
+- [x] **GET**
+- [ ] **POST** 
+- [ ] **DELETE** 
+- [ ] **UPDATE**
+
+## Body JSON
+Link API: https://retoolapi.dev/StWODX/uasresto
+```json
+[
+  {
+    "id": 1,
+    "price": "66000",
+    "number": "1",
+    "details": "Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat",
+    "foodName": "Pepperoni Pizza"
+  },
+  {
+    "id": 2,
+    "price": "50000",
+    "number": "2",
+    "details": "Cocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental",
+    "foodName": "Spaghetti"
+  },
+  {
+    "id": 3,
+    "price": "35000",
+    "number": "3",
+    "details": "Cocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal",
+    "foodName": "Burger"
+  },
+  {
+    "id": 4,
+    "price": "100000",
+    "number": "4",
+    "details": "Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat",
+    "foodName": "Steak"
+  },
+  {
+    "id": 5,
+    "price": "20000",
+    "number": "5",
+    "details": "Cocok bagi anda yang ingin merasakan lezatnya kentang goreng",
+    "foodName": "French Fries"
+  },
+  {
+    "id": 6,
+    "price": null,
+    "number": "",
+    "details": null,
+    "foodName": null
+  }
+]
+```
+## Demo Program
+https://user-images.githubusercontent.com/100754364/209779010-7a7ff739-3854-4096-a2f5-9b46cab71861.mp4
+
+## References
+* [Android](https://developer.android.com/)
+* [Volley](https://google.github.io/volley/)
