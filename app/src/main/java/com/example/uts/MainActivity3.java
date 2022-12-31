@@ -27,7 +27,7 @@ import java.util.List;
 
 
 public class MainActivity3 extends AppCompatActivity {
-    private String url ="https://retoolapi.dev/StWODX/uasresto";
+    private String url ="https://api.jsonserve.com/ONMh2x";
     RecyclerView recyclerView;
     LinearLayoutManager linearLayoutManager;
     AdapterData adapterData;
@@ -53,7 +53,7 @@ public class MainActivity3 extends AppCompatActivity {
                 listdata = new ArrayList<>();
                 try {
                     JSONObject jsonObject = new JSONObject(response);
-                    JSONArray jsonArray = jsonObject.getJSONArray("");
+                    JSONArray jsonArray = jsonObject.getJSONArray("employee");
                     for (int i = 0; i < jsonArray.length(); i++){
                         dataModel = new DataModel();
                         JSONObject data = jsonArray.getJSONObject(i);
